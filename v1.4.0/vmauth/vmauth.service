@@ -1,0 +1,17 @@
+[Unit]
+Description=vmauth
+
+[Service]
+Type=simple
+User=root
+Group=root
+EnvironmentFile=-/etc/victoriametrics/vmauth-config
+ExecStart=/usr/bin/vmauth  $OPTIONS
+ExecReload=/bin/kill -HUP $MAINPID
+Restart=always
+LimitAS=infinity
+LimitRSS=infinity
+LimitCORE=infinity
+LimitNOFILE=655360
+[Install]
+WantedBy=multi-user.target

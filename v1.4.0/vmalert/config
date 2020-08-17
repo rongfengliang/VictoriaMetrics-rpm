@@ -1,0 +1,1 @@
+OPTIONS= "-rule=/etc/victoriametrics/alert.rules -datasource.url=http://localhost:8428  -notifier.url=http://localhost:9093"

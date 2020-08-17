@@ -1,0 +1,1 @@
+OPTIONS= "-cacheDataPath /var/lib/victoriametrics/vmselect -storageNode=<storage1>:8401 -storageNode=<storage2>:8401"

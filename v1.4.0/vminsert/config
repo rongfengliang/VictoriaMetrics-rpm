@@ -1,0 +1,1 @@
+OPTIONS= "-storageNode=<storage1>:8400 -storageNode=<storage1>:8400"

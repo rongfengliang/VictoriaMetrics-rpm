@@ -1,0 +1,1 @@
+OPTIONS= "-promscrape.config=/etc/victoriametrics/prometheus.yml  -remoteWrite.basicAuth.username=<vminsert-account> -remoteWrite.basicAuth.password=<vminsert-password> -remoteWrite.url=http://vmauth:8427"
